@@ -1,26 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/Users/patrik/code/ReStore/API/API.csproj": {}
+    "C:\\Projekt\\ReStore\\API\\API.csproj": {}
   },
   "projects": {
-    "/Users/patrik/code/ReStore/API/API.csproj": {
+    "C:\\Projekt\\ReStore\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/patrik/code/ReStore/API/API.csproj",
+        "projectUniqueName": "C:\\Projekt\\ReStore\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "/Users/patrik/code/ReStore/API/API.csproj",
-        "packagesPath": "/Users/patrik/.nuget/packages/",
-        "outputPath": "/Users/patrik/code/ReStore/API/obj/",
+        "projectPath": "C:\\Projekt\\ReStore\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\pasj\\.nuget\\packages\\",
+        "outputPath": "C:\\Projekt\\ReStore\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/patrik/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\pasj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -77,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
