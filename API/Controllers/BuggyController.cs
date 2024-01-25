@@ -16,10 +16,10 @@ namespace API.Controllers
             return BadRequest(new ProblemDetails{Title = "This is a bad request"});
         }
 
-        [HttpGet("unauthorized")]
+        [HttpGet("unathorized")]
         public ActionResult GetUnathorized()
         {
-            return Unauthorized();
+            return Unathorized();
         }
 
         [HttpGet("validation-error")]
