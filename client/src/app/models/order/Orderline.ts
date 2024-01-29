@@ -1,0 +1,42 @@
+import { WebShopItemUnit } from "models/order/WebShopItemUnit";
+import { Warning } from "models/order/Warning";
+import { ItemMarkings } from "models/product/ItemMarkings";
+import { ItemStatus } from "models/product/ItemStatus";
+import { Expiry } from "models/product/Expiry";
+
+export class Orderline {
+    lineNo: number;
+    productId: string | null;
+    description: string | null;
+    amount: number;
+    unit: string | null;
+    basicUnit: string | null;
+    price: number;
+    added: Date;
+    expiryRef: string | null;
+    brand: string | null;
+    unitPrice: number | null;
+    lineprice: number | null;
+    procurable: boolean;
+    weightItem: boolean;
+    units: Array<WebShopItemUnit>;
+    image: string | null;
+    warnings: Array<Warning>;
+    checkoutId: number;
+    expiryDate: Date;
+    altOrderline: Orderline | null;
+    isAlternative: boolean;
+    blocked: boolean;
+    saleBlocked: boolean;
+    saleBlockedDate: Date | null;
+    depositProduct: boolean;
+    discountPrice: number;
+    discountUnitPrice: number;
+    discountAmountExceeded: number;
+    markings: ItemMarkings;
+    stock: number;
+    itemStatus: ItemStatus;
+    leftAmountWithSurcharge: number;
+    orderlineUISource: string;
+    expiry: Expiry;
+}

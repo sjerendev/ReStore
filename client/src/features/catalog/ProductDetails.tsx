@@ -49,23 +49,23 @@ export default function ProductDetails() {
           <Table>
             <TableBody>
               <TableRow>
-                <TableCell>Name</TableCell>
+                <TableCell>Namn</TableCell>
                 <TableCell>{product.name}</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Description</TableCell>
+                <TableCell>Beskrivning</TableCell>
                 <TableCell>{product.description}</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Type</TableCell>
+                <TableCell>Typ</TableCell>
                 <TableCell>{product.type}</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Brand</TableCell>
+                <TableCell>Märke</TableCell>
                 <TableCell>{product.brand}</TableCell>
               </TableRow>
               <TableRow>
-                <TableCell>Quantity in stock</TableCell>
+                <TableCell>Antal i lager</TableCell>
                 <TableCell>{product.quantityInStock}</TableCell>
               </TableRow>
             </TableBody>
