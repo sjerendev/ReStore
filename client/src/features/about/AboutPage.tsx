@@ -22,7 +22,7 @@ export default function AboutPage() {
         </Button>
         <Button
           variant="contained"
-          onClick={() => agent.TestErrors.get404Error()}
+          onClick={() => agent.TestErrors.get404Error().catch(error => console.log(error))}
         >
           Test 404 error
         </Button>
